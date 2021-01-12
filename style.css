@@ -1,0 +1,180 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: #ffffff;
+  color: #292E60;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.208397);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 160px;
+  margin: 16px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin: 16px;
+  cursor: pointer;
+}
+
+.global-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.max-container {
+  width: 100%;
+  max-width: 1300px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-menus {
+  max-width: 318px;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.101808);
+  border-radius: 6px;
+  padding: 22px 16px 22px 16px;
+  margin-right: 16px;
+}
+
+.container-body {
+  width: 100%;
+  height: max-content;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.101808);
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.navigator-itens {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.navigator-itens .step-navigator {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: #686868;
+}
+
+.navigator-itens .active {
+  color: #292E60;
+}
+
+.navigator-itens img {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.logo-company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-company img {
+  max-width: 132px;
+}
+
+.user-name {
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #292E60;
+}
+
+.company-name {
+  margin-top: 8px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2F2F2F;
+  text-align: center;
+}
+
+.item-menu {
+  display: flex;
+  align-items: center;
+  mix-blend-mode: normal;
+  border-radius: 6px;
+  color: #2F2F2F;
+  margin-top: 16px;
+  cursor: pointer;
+  height: 48px;
+  padding: 8px;
+}
+
+.item-menu + .item-menu {
+  margin-top: 8px;
+}
+
+.active {
+  background: #f4f4f4;
+}
+
+.item-menu p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2F2F2F;
+  margin-left: 12px;
+}
+
+.box-clock {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box-clock .clock {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.box-clock .active {
+  background-color: #292E60;
+  color: #ffffff;
+}
+
+.day-name {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.day-number {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.day-total {
+  font-weight: 300;
+  font-size: 12px;
+}
